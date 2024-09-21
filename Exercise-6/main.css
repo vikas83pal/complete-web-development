@@ -23,5 +23,12 @@ button{
     color: white;
     padding: 10px;
     border: none;
+    cursor: pointer;
+}
+img{
+   margin-right: 560px; 
+}
 
+i{
+    margin: 10px 10px;
 }
