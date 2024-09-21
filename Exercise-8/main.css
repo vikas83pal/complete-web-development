@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    background-color: blue;
+    position: relative;
+}
+.box {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    border-radius: 100px;
+    animation: bounceBall-X 4s linear 0s infinite, 
+               bounceBall-Y 2s cubic-bezier(0.36, -0.55, 0.35, 0.92) 0s infinite;
+}
+
+@keyframes bounceBall-X {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 100px); 
+    }
+}
+
+@keyframes bounceBall-Y {
+    0% {
+        bottom: 0; 
+    }
+    50% {
+        bottom: 240px; 
+    }
+}
