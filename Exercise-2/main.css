@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 div > p:first-child{
     background-color: yellow;
     color: red;
 }
+=======
+div > p:first-child {  /* child and pseudo selector*/
+    background-color: yellow;
+    color: red;
+  }
+>>>>>>> main
 div p{
     background-color: blue;
     color: white;

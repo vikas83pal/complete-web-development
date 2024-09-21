@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+main{
+    margin: 80px;
+    align-content: center;
+    text-align: center;
+}
+button{
+    background-color: rgba(15, 15, 212, 0.589);
+    font-size: 11px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgba(15, 15, 212, 0.808);
+}
+img{
+   margin-right: 560px; 
+}
+
+i{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+select{
+    border: none;
+    cursor: pointer;
+}
+select:hover{
+    color: rgb(12, 7, 95);
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    width: 630px;
+    margin: 0 auto;
+}
+
+.box{
+    background-color: #eedbdb33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+    /* border: 1px solid #ccc; */
+}
+.box h6{
+    margin-top: 0;
+    padding: 20px;
+}
+div p{
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+div button{
+    background-color: rgba(0, 128, 0, 0.651);
+    border-radius: 10px;
+    width: 135px;
+
+}
+.content2{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+}
+.content2 p{
+    color: white;
+    font-size: 16px;
+    margin: 200px ; 
+    margin-left: 100px;
+    justify-content: center;
+    align-content: center;
+
+}
+.sigup{
+    margin: 70px 90px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    height: 260px;
+    width: 390px;
+    background-color: white;
+}
+
+.sigup label,input,button {
+    margin: 5px;
+}
+.sigup h6{
+    margin: 40px;
+    font-size: 30px;
+    color: rgba(79, 79, 214, 0.521);
+}
+.left p{
+    margin: 50px 10px;
+    height: 260px;
+    width: 390px;
+    line-height: 1.5;    
+}
