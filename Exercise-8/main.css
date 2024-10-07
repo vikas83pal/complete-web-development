@@ -8,7 +8,7 @@ body{
     background-color: blue;
     position: relative;
 }
-.box {
+.ball {
     background-color: red;
     height: 100px;
     width: 100px;
@@ -16,8 +16,8 @@ body{
     position: absolute;
     left: 0;
     border-radius: 100px;
-    animation: bounceBall-X 4s linear 0s infinite, 
-               bounceBall-Y 2s cubic-bezier(0.36, -0.55, 0.35, 0.92) 0s infinite;
+    animation: bounceBall-X 3s linear 0s infinite, 
+               bounceBall-Y 1.5s cubic-bezier(0.36, -0.55, 0.35, 0.92) 0s infinite;
 }
 
 @keyframes bounceBall-X {
@@ -34,7 +34,7 @@ body{
         bottom: 0; 
     }
     50% {
-        bottom: 240px; 
+        bottom: 400px; 
     }
     
 }
